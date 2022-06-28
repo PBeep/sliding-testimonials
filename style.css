@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    padding: 0.625rem; /*10px*/
+    position: relative;
+    text-align: center;
+    background-color: #21a0aa;
+}
+
+.slide-row {
+    display: flex;
+    width: 3200px; /*10px*/
+    transition: 0.5s;
+}
+
+.slide-col {
+    position: relative;
+    width: 800px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.user-image img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    z-index: 2;
+}
+
+.user-review {
+    background-color: #f59338;
+    position: absolute;
+    top: 70%;
+    left: 0;
+    border-radius: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.user-review p {
+    font-family: roboto;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.user-review h3 {
+    margin-top: 10px;
+    font-family: roboto;
+    font-size: 35px;
+
+    }
+
+.container {
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.indicator {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -30px;
+}
+
+.btn {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-color: #f59338;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: 00.5s;
+}
+
+.active {
+    width: 45px;
+}
+
+.testimonials {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
